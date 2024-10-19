@@ -8,4 +8,5 @@ WORKDIR /app
 COPY target/reservation-service-0.0.1.jar /app/reservation-service-0.0.1.jar
 
 # Specify the command to run the application
-CMD java ${JAVA_OPTS} -jar reservation-service-0.0.1.jar
+CMD java ${JAVA_OPTS} -jar reservation-service-0.0.1.jar 
+CMD echo "test"
